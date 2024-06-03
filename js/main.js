@@ -1,12 +1,14 @@
 console.log("JS file connected");
 
-const iconControl = document.querySelectorAll(".icon-box");
+const iconControl = document.querySelectorAll("#container object");
 console.log(iconControl);
-
-iconControl.forEach(function (object) {
-  object.addEventListener("mousedown", logId);
-});
 
 function logId() {
   console.log(this.id);
 }
+
+iconControl.forEach(function (object) {
+  object.addEventListener("mouseover", logId);
+});
+
+
