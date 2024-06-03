@@ -84,7 +84,7 @@
                 }
 
                 70% {
-                  transform: translateY(-35px) translateX(-20px);
+                  transform: translateY(30px) translateX(-20px);
                 }
               }
 
