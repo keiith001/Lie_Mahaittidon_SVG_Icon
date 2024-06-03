@@ -1,0 +1,59 @@
+p {
+  font-family: "inter", sans-serif;
+  color: #00a551;
+}
+
+#container {
+  display: grid;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: calc(200px + 25%);
+  height: calc(200px + 25%);
+  margin: 5% 0;
+}
+
+.introduction {
+  display: grid;
+}
+
+.thebox {
+  display: grid;
+  place-items: center;
+}
+
+.text-intro {
+  text-align: center;
+  padding: 0 15%;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+
+  p {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  object {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+footer {
+  display: grid;
+  place-content: center;
+  padding: 30px;
+}
