@@ -113,4 +113,15 @@
     <rect class="cls-1" x="182.5" y="249.2" width="11.5" height="56.7" transform="translate(-71.8 65.8) rotate(-16.7)"/>
     <rect class="cls-1" x="268.6" y="229.7" width="11.5" height="56.7" transform="translate(-62.6 89.7) rotate(-16.7)"/>
   </g>
+
+<script>
+let svg = document.querySelector("#ic-strawberry");
+
+function logID() {
+console.log(this.id);
+}
+
+svg.addEventListener("click", logID);
+</script>
+
 </svg>

@@ -142,4 +142,13 @@
               <circle class="orange" cx="281.5" cy="230.3" r="5.8"/>
             </g>
           </g>
+          <script>
+let svg = document.querySelector("#orange");
+
+function logID() {
+console.log(this.id);
+}
+
+svg.addEventListener("click", logID);
+</script>
         </svg>
